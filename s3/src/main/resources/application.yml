@@ -1,1 +1,14 @@
+cloud:
+  aws:
+    credentials:
+      accessKey:
+      secretKey: 
+    s3:
+      bucket:
+      basePath: temp/
+    region:
+      static: ap-northeast-2
 
+logging:
+  level:
+    com.amazonaws: TRACE
