@@ -8,7 +8,7 @@ import java.util.Map;
 @Getter
 @Setter
 @NoArgsConstructor
-@DynamoDBTable(tableName = "temp")
+@DynamoDBTable(tableName = "Temp")
 public class Temp {
 
 

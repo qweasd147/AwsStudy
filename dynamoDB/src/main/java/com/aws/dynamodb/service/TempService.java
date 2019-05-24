@@ -17,7 +17,6 @@ public class TempService {
 
     public void createTemp(){
 
-
         Temp temp = Temp.builder()
                 .data1("temp data1")
                 .data2("temp data2")
@@ -25,7 +24,6 @@ public class TempService {
                 .build();
 
         tempRepository.save(temp);
-
 
         System.out.println("create temp : " + temp);
     }
