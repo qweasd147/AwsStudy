@@ -11,5 +11,9 @@ public interface ArticleRepository extends PagingAndSortingRepository<Article, S
 
     @EnableScan
     @EnableScanCount
+    Page<Article> findAll(Pageable pageable);
+
+    @EnableScan
+    @EnableScanCount
     Page<Article> findAllByCodeOrderByCreateDateDesc(String code, Pageable pageable);
 }
