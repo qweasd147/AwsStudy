@@ -1,0 +1,11 @@
+cloud:
+  aws:
+    credentials:
+      accessKey:
+      secretKey:
+    region:
+      static: ap-northeast-2
+
+logging:
+  level:
+    com.amazonaws: TRACE
